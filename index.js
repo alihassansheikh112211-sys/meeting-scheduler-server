@@ -9,7 +9,7 @@ const cors = require('cors')
 
 const port = process.env.PORT
 connectDB()
-app.use(cors({ origin: "https://meeting-scheduler-system-cleint.vercel.app" }))
+app.use(cors({ origin: "https://meeting-scheduler-system-cleint-p6dxksasa.vercel.app/" }))
 app.use(express.json())
 app.use('/', meetingRouter)
 app.use('/', userRouter)
